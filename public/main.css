@@ -1,0 +1,22 @@
+
+.component {
+    border: 1px solid black;
+    background: #eee;
+}
+
+.component-name {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    border-right:  1px solid black;
+}
+
+.component-body {
+    display: grid;
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.class {
+    background: white;
+    border: 2px solid black;
+}

@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Interactive Class Diagramm</title>
+    <title>Interactive Class Diagram</title>
+    <script src="vue.global.js" defer></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+    <div id="app">
+        <uml-component v-bind:component="globalComponent" style="display: inline-block"></uml-component>
+    </div>
 </body>
 </html>
