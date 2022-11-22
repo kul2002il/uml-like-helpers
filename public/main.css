@@ -1,12 +1,25 @@
 
-.component {
-    border: 1px dashed black;
+.main-component {
+    display: inline-block;
     background: #eee;
 }
 
-.main-component {
-    display: inline-block;
-    border: none;
+.main-component>.component-body {
+    position: relative;
+    z-index: 20;
+}
+
+.main-component>svg {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.component {
+    border: 1px dashed black;
 }
 
 .component-header {
