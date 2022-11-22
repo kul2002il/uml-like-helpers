@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Interactive Class Diagram</title>
-    <script src="vue.global.js" defer></script>
-    <script src="main.js" defer></script>
     <link rel="stylesheet" href="main.css">
+    <script src="js/vendor/vue.global.js" defer></script>
+    <script src="js/exampleData.js"></script>
+    <script src="js/Model/ClassStruct.js"></script>
+    <script src="js/Components/UmlComponent.js"></script>
+    <script src="js/Components/UmlClass.js"></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <div id="app">
-        <uml-component v-bind:component="globalComponent" style="display: inline-block"></uml-component>
+        <uml-component v-bind:component="globalComponent" class="main-component"></uml-component>
     </div>
 </body>
 </html>
