@@ -40,6 +40,7 @@
 
 .class-name, .class-property, .class-method {
     padding: 2px 5px;
+    white-space: nowrap;
 }
 
 .class-name {

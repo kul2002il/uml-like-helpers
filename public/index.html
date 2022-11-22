@@ -7,13 +7,15 @@
     <script src="js/vendor/vue.global.js" defer></script>
     <script src="js/exampleData.js"></script>
     <script src="js/Model/ClassStruct.js"></script>
+    <script src="js/Model/Arranging/ArrangeCascade.js"></script>
     <script src="js/Components/UmlComponent.js"></script>
     <script src="js/Components/UmlClass.js"></script>
+    <script src="js/Components/UmlClassDiagram.js"></script>
     <script src="js/main.js" defer></script>
 </head>
 <body>
     <div id="app">
-        <uml-component v-bind:component="globalComponent" class="main-component"></uml-component>
+        <uml-class-diagram v-bind:class-diagram-data="classDiagramData" class="main-component"></uml-class-diagram>
     </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 
-let classes = {
+let exampleData = {
     'App/Models/Worker': {
         properties: {
             'name': {
